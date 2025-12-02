@@ -7,6 +7,6 @@ export function normalizeTimestamps<T extends { created_at?: Date | string }>(ro
   return row
 }
 
-export function normalizeMany<T extends { created_at?: Date | string }>(rows: T[]): T[] {
+export function normalizeMany<T extends {created_at?: Date | string}>(rows: T[]): T[]{
   return rows.map((r) => normalizeTimestamps(r))
 }
