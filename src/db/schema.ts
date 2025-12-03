@@ -46,3 +46,9 @@ export const products = pgTable('products', {
     idx_category: uniqueIndex('products_category_idx').on(table.category_id),
   }
 })
+
+// this si the theme w3e want for the actual feature we wnat to wrok on man
+// what are the other things did u think we have ot work and let see what we got ast this poitn lfie life man
+//
+//
+// so what are the main things we need to work on this :
